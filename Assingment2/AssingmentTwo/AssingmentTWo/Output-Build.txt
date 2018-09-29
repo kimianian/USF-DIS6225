@@ -1,0 +1,3 @@
+﻿1>------ Build started: Project: AssingmentTWo, Configuration: Debug Any CPU ------
+1>AssingmentTWo -> D:\My PhD (Kimia)\PhD\Distributed Information Systems\GitKraken\USF-DIS6225\Assingment2\AssingmentTwo\AssingmentTWo\AssingmentTWo\bin\Debug\netcoreapp2.1\AssingmentTWo.dll
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========

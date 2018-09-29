@@ -1,0 +1,11 @@
+D:\My PhD (Kimia)\PhD\Distributed Information Systems\GitKraken\USF-DIS6225\Assingment2\AssingmentTwo\AssingmentTWo\AssingmentTWo\obj\Debug\netcoreapp2.1\AssingmentTWo.csprojAssemblyReference.cache
+D:\My PhD (Kimia)\PhD\Distributed Information Systems\GitKraken\USF-DIS6225\Assingment2\AssingmentTwo\AssingmentTWo\AssingmentTWo\obj\Debug\netcoreapp2.1\AssingmentTWo.csproj.CoreCompileInputs.cache
+D:\My PhD (Kimia)\PhD\Distributed Information Systems\GitKraken\USF-DIS6225\Assingment2\AssingmentTwo\AssingmentTWo\AssingmentTWo\obj\Debug\netcoreapp2.1\AssingmentTWo.AssemblyInfoInputs.cache
+D:\My PhD (Kimia)\PhD\Distributed Information Systems\GitKraken\USF-DIS6225\Assingment2\AssingmentTwo\AssingmentTWo\AssingmentTWo\obj\Debug\netcoreapp2.1\AssingmentTWo.AssemblyInfo.cs
+D:\My PhD (Kimia)\PhD\Distributed Information Systems\GitKraken\USF-DIS6225\Assingment2\AssingmentTwo\AssingmentTWo\AssingmentTWo\bin\Debug\netcoreapp2.1\AssingmentTWo.deps.json
+D:\My PhD (Kimia)\PhD\Distributed Information Systems\GitKraken\USF-DIS6225\Assingment2\AssingmentTwo\AssingmentTWo\AssingmentTWo\bin\Debug\netcoreapp2.1\AssingmentTWo.runtimeconfig.json
+D:\My PhD (Kimia)\PhD\Distributed Information Systems\GitKraken\USF-DIS6225\Assingment2\AssingmentTwo\AssingmentTWo\AssingmentTWo\bin\Debug\netcoreapp2.1\AssingmentTWo.runtimeconfig.dev.json
+D:\My PhD (Kimia)\PhD\Distributed Information Systems\GitKraken\USF-DIS6225\Assingment2\AssingmentTwo\AssingmentTWo\AssingmentTWo\bin\Debug\netcoreapp2.1\AssingmentTWo.dll
+D:\My PhD (Kimia)\PhD\Distributed Information Systems\GitKraken\USF-DIS6225\Assingment2\AssingmentTwo\AssingmentTWo\AssingmentTWo\bin\Debug\netcoreapp2.1\AssingmentTWo.pdb
+D:\My PhD (Kimia)\PhD\Distributed Information Systems\GitKraken\USF-DIS6225\Assingment2\AssingmentTwo\AssingmentTWo\AssingmentTWo\obj\Debug\netcoreapp2.1\AssingmentTWo.dll
+D:\My PhD (Kimia)\PhD\Distributed Information Systems\GitKraken\USF-DIS6225\Assingment2\AssingmentTwo\AssingmentTWo\AssingmentTWo\obj\Debug\netcoreapp2.1\AssingmentTWo.pdb

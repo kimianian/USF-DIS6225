@@ -16,12 +16,8 @@ namespace Assignment_2
       Stock stockEight = new Stock("AAPL", "Apple", 5m, 147.6m);
       Stock stockNine = new Stock("GOOG", "Google", 1.2m, 6.27m);
 
-
-
       ClientPortfolio client1 = new ClientPortfolio("Andrew", "Mountain View", "555-111-9070");
-            ClientPortfolio client1 = new ClientPortfolio("Andrew", "Mountain View", "555-111-9070");
-
-            client1.StockList.AddStock(stockOne);
+      client1.StockList.AddStock(stockOne);
       client1.StockList.AddStock(stockTwo);
       client1.StockList.AddStock(stockThree);
       client1.StockList.AddStock(stockFour);
