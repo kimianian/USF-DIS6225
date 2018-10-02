@@ -15,11 +15,11 @@ namespace AssingmentTWo
             decimal value = 0.0m;
 
             // write your implementation here
-            StockNode current = this.head;
-            while (current != null)
+            StockNode stocknode = this.head;
+            while (stocknode != null)
             {
-                value+=(current.StockHolding.Holdings*current.StockHolding.CurrentPrice);
-                current = current.Next;
+                value+=(stocknode.StockHolding.Holdings* stocknode.StockHolding.CurrentPrice);
+                stocknode = stocknode.Next;
             }
             return value;
         }
@@ -33,6 +33,34 @@ namespace AssingmentTWo
             int similarityIndex = 0;
 
             // write your implementation here
+
+            StockNode stocknode = this.head;
+            StockNode stocknode2 = listToCompare.head;
+
+            while (stocknode != null)
+            {
+                while (stocknode2 != null)
+                {
+                    if (stocknode.StockHolding.Symbol == stocknode2.StockHolding.Symbol)
+                    {
+                        if (stocknode.Next == null || stocknode2.Next == null)
+                        {
+                            similarityIndex = similarityIndex + 1;
+                        }
+                        else if (stocknode.StockHolding.Symbol == stocknode.Next.StockHolding.Symbol || stocknode2.StockHolding.Symbol == stocknode2.Next.StockHolding.Symbol)
+                        {
+                            similarityIndex = similarityIndex + 0;
+                        }
+                        else
+                        {
+                            similarityIndex = similarityIndex + 1;
+                        }
+                    }
+                    stocknode2 = stocknode2.Next;
+                }
+                stocknode2 = listToCompare.head;
+                stocknode = stocknode.Next;
+            }
 
             return similarityIndex;
         }

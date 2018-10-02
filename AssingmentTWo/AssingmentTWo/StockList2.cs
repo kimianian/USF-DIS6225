@@ -13,7 +13,23 @@ namespace AssingmentTWo
         public StockList MergeList(StockList listToMerge)
         {
             StockList resultList = new StockList();
-            
+            StockNode node = head;
+            while (node != null)
+            {
+                resultList.AddStock(node.StockHolding);
+                node = node.Next;
+            }
+
+
+            StockNode mergeNode = listToMerge.head;
+            //Adding the stock value to the list
+            while (mergeNode != null)
+            {
+                resultList.AddStock(mergeNode.StockHolding);
+                mergeNode = mergeNode.Next;
+            }
+
+
 
             return resultList;
         }
@@ -27,8 +43,28 @@ namespace AssingmentTWo
             Stock mostShareStock = null;
 
             // write your implementation here
-            this.Sort_Version2();
-            mostShareStock = this.head.StockHolding;
+            StockNode stocknode = head;
+            mostShareStock = stocknode.StockHolding;
+
+            while (stocknode != null)
+            {
+                if (stocknode.StockHolding.Holdings > mostShareStock.Holdings)
+                {
+                    mostShareStock.Holdings = stocknode.StockHolding.Holdings;
+                    mostShareStock.Name = stocknode.StockHolding.Name;
+                    mostShareStock.Symbol = stocknode.StockHolding.Symbol;
+                    mostShareStock.CurrentPrice = stocknode.StockHolding.CurrentPrice;
+                }
+                else
+                {
+                    mostShareStock.Holdings = mostShareStock.Holdings;
+                    mostShareStock.Name = mostShareStock.Name;
+                    mostShareStock.Symbol = mostShareStock.Symbol;
+                    mostShareStock.CurrentPrice = mostShareStock.CurrentPrice;
+                }
+                stocknode = stocknode.Next;
+            }
+
             return mostShareStock;
         }
 
@@ -46,7 +82,7 @@ namespace AssingmentTWo
                 length++;
                 current = current.Next;
             }
-           return length;
+            return length;
         }
     }
 }

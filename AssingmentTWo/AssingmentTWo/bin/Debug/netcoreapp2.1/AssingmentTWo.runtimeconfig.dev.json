@@ -1,9 +1,9 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\kimia\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\kimia\\.nuget\\packages",
-      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      "/Users/sachinsalvanikar/.dotnet/store/|arch|/|tfm|",
+      "/Users/sachinsalvanikar/.nuget/packages",
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
     ]
   }
 }
