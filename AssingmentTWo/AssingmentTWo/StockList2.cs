@@ -43,6 +43,7 @@ namespace AssingmentTWo
             Stock mostShareStock = null;
 
             // write your implementation here
+            // mostShareStock
             StockNode stocknode = head;
             mostShareStock = stocknode.StockHolding;
 

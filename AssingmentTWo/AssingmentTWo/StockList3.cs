@@ -34,6 +34,8 @@ namespace AssingmentTWo
 
             // write your implementation here
 
+            // Similarity
+
             StockNode stocknode = this.head;
             StockNode stocknode2 = listToCompare.head;
 
