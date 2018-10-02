@@ -13,7 +13,23 @@ namespace AssingmentTWo
         public StockList MergeList(StockList listToMerge)
         {
             StockList resultList = new StockList();
-            
+            StockNode node = head;
+            while (node != null)
+            {
+                resultList.AddStock(node.StockHolding);
+                node = node.Next;
+            }
+
+
+            StockNode mergeNode = listToMerge.head;
+            //Adding the stock value to the list
+            while (mergeNode != null)
+            {
+                resultList.AddStock(mergeNode.StockHolding);
+                mergeNode = mergeNode.Next;
+            }
+
+
 
             return resultList;
         }
@@ -46,7 +62,7 @@ namespace AssingmentTWo
                 length++;
                 current = current.Next;
             }
-           return length;
+            return length;
         }
     }
 }
